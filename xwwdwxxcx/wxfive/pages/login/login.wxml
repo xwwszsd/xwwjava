@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class='base'>
+  <view class='top'>
+  
+  </view>
+  <view class='content'>
+      <view class='cell' >
+         <input placeholder='请输入用户名：' class='inputcss' bindinput='inputname'></input>
+      </view>
+      <view class='cell'>
+         <input placeholder='请输入密码：' class='inputcss' bindinput='inputpwd'></input>
+      </view>
+      <view class='codeview'>
+         <input class='logincodecss' bindinput='inputcode' placeholder='请输入验证码：'></input>
+         <text class='codecss' bindtap='restcode' >{{codevalue}}</text>
+      </view>
+      <view class='tishi'>
+         <text class='tishikuang'>{{fanhui}}</text>
+      </view>
+   </view>
+   <view class='bottom'>
+      <button type='primary' class='btncss' bindtap='btnclick'>登录</button>
+   </view>
+</view>

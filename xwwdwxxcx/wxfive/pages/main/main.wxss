@@ -1,0 +1,117 @@
+/* pages/main/main.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  
+}
+.top{
+  width: 100%;
+  height: 30%;
+  background-color: rgb(192, 229, 247);
+  
+}
+.title{
+  width: 100%;
+  height: 200rpx;
+
+  display: flex;
+}
+.twocss{
+  width: 80%;
+  height: 100rpx;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.logincss{
+  width: 100rpx;
+  height: 100rpx;
+ 
+  margin: 30rpx;
+  
+}
+.loginimg{
+  width: 100%;
+  height: 100%;
+}
+.logfont{
+  width: 100rpx;
+  height: 80rpx;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: '楷体';
+  font-size: 35rpx;
+  color: blue;
+}
+.zhuce{
+  width: 100rpx;
+  height: 80rpx;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: '楷体';
+  font-size: 35rpx;
+  color: blue;
+ 
+}
+.lunbocss{
+  width: 100%;
+  height: 100%;
+ 
+  }
+  .lunbocss{
+    width: 100%;
+    height: 100%;
+  }
+  .imgcss1{
+    width: 100%;
+    height: 100%;
+  }
+  .below{
+  width: 100%;
+  height: 100%;
+  }
+  .above{
+    width: 100%;
+    height: 40%;
+  }
+  .bein{
+    height: 80rpx;
+    width: 380rpx;
+    display: flex;
+   
+    align-items: center;
+  }
+  .inputcss{
+    height: 100%;
+    width: 100%;
+    border-radius: 35rpx;
+    background-color: white;
+    
+  }
+  .iconimg{
+    width: 50rpxl;
+    height: 50rpx;
+    transform: translate();
+  }
+  .serchicon{
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 20rpx
+  }
+  .serchitem{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 35rpx;
+    margin-right: 20rpx;
+    margin-left: 20rpx;
+  }

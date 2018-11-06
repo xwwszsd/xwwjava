@@ -1,0 +1,79 @@
+/* pages/zhuce/zhuce.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541349155390&di=5b5b576540aba9e410e0ca25d0a587c2&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F013007570f33cd6ac7251f05a24602.jpg%401280w_1l_2o_100sh.png);
+}
+.top{
+  width: 100%;
+  height: 30%;
+  
+}
+.zhuceview{
+  width: 100%;
+  height: 30%;
+  
+}
+.stuidview{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.nameview{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+   align-items: center;
+}
+.pwdview{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  
+}
+.txtcss{
+  width: 200rpx;
+  height: 80rpx;
+   display: flex;
+  align-items: center;
+}
+.cell{
+  width: 350rpx;
+  height: 80rpx;
+  background-color: white;
+  margin-left: 120rpx;
+}
+.zcsexview{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sexview{
+  width: 200rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+.labelcss{
+  margin-left: 40rpx;
+}
+.radiosex{
+   width: 400rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 120rpx;
+}
+.btnsub{
+  
+}
+.a{
+  margin: 60rpx;  
+}

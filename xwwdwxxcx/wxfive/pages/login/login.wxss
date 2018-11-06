@@ -1,0 +1,97 @@
+/* pages/login/login.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541340240212&di=03257d86ae6ecf5ef78af4a846a6c827&imgtype=0&src=http%3A%2F%2F6.pic.pc6.com%2Fthumb%2Fup%2F2016-12%2F2016121617849208_600_0.jpeg);
+}
+.top{
+  width: 100%;
+  height: 35%;
+}
+.content{
+  width: 100%;
+  height: 40%;
+  
+  margin-top: 50rpx;
+  
+}
+.cell{
+  width: 100%;
+  height: 100rpx;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.inputcss{
+  width: 80%;
+  height: 90rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(white,rgb(245, 234, 234));
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.codeview{
+  width: 100%;
+  height: 150rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logincodecss{
+  width: 300rpx;
+  height: 100rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  background: linear-gradient(white,rgb(245, 234, 234));
+}
+.codecss{
+  width: 150rpx;
+  height: 80rpx;
+  background-color: rgb(244, 247, 94);
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.tishi{
+  widows: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.tishikuang{
+  width: 500rpx;
+  height: 80rpx;
+  font-family: '楷体';
+  color: red;
+  font-size: 35rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bottom{
+  width: 100%;
+  height: 15%;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20rpx;
+}
+.btncss{
+   width: 250rpx;
+   height: 100rpx;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}

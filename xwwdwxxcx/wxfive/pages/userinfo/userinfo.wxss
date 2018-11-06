@@ -1,0 +1,92 @@
+/* pages/userinfo/userinfo.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(86, 188, 247, 0.39);
+}
+.top{
+  width: 100%;
+  height: 150rpx;
+  background-color: rgb(218, 188, 248);
+  display: flex;
+  align-items: center;
+}
+.touxiang{
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid red;
+
+}
+.username{
+  width: 180rpx;
+  height: 80rpx;
+  border: 1rpx solid red;
+  font-family: '楷体';
+  font-size: 35rpx;
+  display: flex;
+  justify-content: center;
+}
+.serchview{
+  width: 280rpx;
+  height: 85rpx;
+ 
+  margin-left: 30rpx;
+}
+.serchinput{
+  width: 100%;
+  height: 100%;
+  border-radius: 25rpx;
+  background-color: white;
+  text-align: center;
+}
+.chaxunview{
+  width: 150rpx;
+  height: 75rpx;
+  
+  margin-left: 10rpx;
+}
+.list{
+  width: 100%;
+  height: 150rpx;
+  border-bottom:2rpx solid red;
+}
+.con{
+  display: flex;
+}
+.face{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.img{
+  width: 80%;
+  height: 80%;
+}
+.name{
+  width: 200rpx;
+  height: 150rpx;
+  display: flex;
+  font-size: 30rpx;
+  justify-content: center;
+  align-items: center;
+}
+.phone{
+  width: 200rpx;
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}
+.email{
+  width: 200rpx;
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}
+.duanxin{
+  width: 200rpx;
+  height: 150rpx;
+  display: flex;
+  align-items: center;
+}

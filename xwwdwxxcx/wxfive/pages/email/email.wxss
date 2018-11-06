@@ -1,0 +1,50 @@
+/* pages/four/four.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(165, 253, 238, 0.719);
+  
+
+}
+.top{
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ecll{
+  width: 80%;
+  height: 100rpx;
+  background-color: white;
+}
+.inputcss{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+  
+}
+.content{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txtcss{
+  width: 80%;
+  height: 400rpx;
+  background-color: white;
+}
+.btncss{
+  width: 250rpx;
+  
+}
+.tetcss{
+  width: 100%;
+  height: 100%;
+}

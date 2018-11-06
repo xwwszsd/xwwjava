@@ -1,0 +1,10 @@
+<!--pages/four/four.wxml-->
+<view class='base'>
+  <view class='top'>
+    <view class='ecll'><input class='inputcss' placeholder='请输入标题' bindinput='shuru'></input></view>
+  </view>
+  <view class='content'>
+    <view class='txtcss'><textarea bindinput='contentclick' class='tetcss'></textarea></view>
+  </view>
+  <view class='bottom'><button type='primary' class='btncss' bindtap='btncss'>发送邮件</button></view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/zhuce/zhuce",
+    "pages/userinfo/userinfo",
+    "pages/login/login",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/email/email"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,39 @@
+<!--pages/main/main.wxml-->
+<view class='base'>
+  <view class='top'>
+    
+    <view class='above'>
+      <view class='title'>
+        <view class='logincss'>
+          <image src='../img/notlogin.png' class='loginimg'></image>
+        </view>
+        <view class='twocss'>
+          <view class='logfont' bindtap='clicklogin'>
+            <text class='logtxt' class='logfontsize'>登录</text>
+          </view>
+          <view class='bein'>
+            <view class='serchitem'>
+              <image src='{{imgicon}}' class='serchicon'></image>
+              <input class='inputcss'></input>
+            </view>
+          </view>
+          <view class='zhuce' bindtap='clickzhuce'>
+            <text>注册</text>
+          </view> 
+        </view>     
+      </view>
+    </view> 
+
+    <view class='below'>
+      <swiper indicator-dots='true' indicator-active-color='blue' autoplay='true' interval='3000' class='lunbocss'>
+        <block wx:for='{{lunboimg}}'>
+          <swiper-item>
+            
+            <image src='{{item}}' class='imgcss1'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+      </view>
+    
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view class='base'>
+  <view class='top'></view>
+    <form bindsubmit='' bindreset=''></form>
+      <view class='zhuceview'>
+        <view class='zcinputview'>
+          <view class='stuidview'><text class='txtcss'>学生ID：</text><input class='cell'></input></view> 
+          <view class='nameview'><text class='txtcss'>学生姓名：</text><input class='cell'></input></view>
+          <view class='pwdview'><text class='txtcss'>密码：</text><input class='cell'></input></view>
+          
+          <view class="zcsexview">
+            <view class="sexview">性别：</view>
+              <view class='radiosex'>
+                <radio-group name="sex">
+                  
+                    <label class='labelcss'>
+                      <radio value="男" checked/>男</label>
+                    <label class='labelcss'>
+                      <radio value="女" />女</label>
+                </radio-group>
+              </view>
+          </view>
+          <view class="btnsub">
+            <button formType="submit" class='a'>提交</button>
+            <button formType="reset"class='a'>重置</button>
+          </view>
+                                                                                                      
+        </view>
+      </view>
+</view>

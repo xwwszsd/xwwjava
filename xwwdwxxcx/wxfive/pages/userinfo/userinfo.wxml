@@ -1,0 +1,24 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class='base'>
+  <view class='top'>
+     <view class='touxiang'><image></image></view>
+     <view class='username'>徐韦韦</view>
+     <view class='serchview'>
+       <input class='serchinput' bindinput='nameinput' ></input>
+     </view>
+     <view class='chaxunview'>
+       <button class='chaxunbtn' type='primary' bindtap='btnclick'>查询</button>
+     </view>
+  </view>
+  <block wx:if="{{flog}}">
+   <view  class='list' wx:for='{{studata}}'>
+       <view class='con'>
+          <view class='face'><image src='{{item.faceimg}}' class='img'></image></view>
+          <view class='name'><text>{{item.ename}}</text></view>
+          <view class='phone' bindtap='clickphone' data-phone='{{item.ephone}}'><button>手机</button></view>
+          <view class='email' bindtap='clickemail' data-email='{{item.eemail}}'><button>邮箱</button></view>
+          <view class='duanxin'><button>短信</button></view>   
+       </view>
+   </view>
+  </block>
+</view>
