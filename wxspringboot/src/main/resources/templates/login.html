@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+</head>
+<body>
+<!--action="loginuser" method="post" id="loginForm"-->
+<form >
+    <input type="text"  id="name" value="" name="name">
+    <input type="text"  id="pwd" value="" name="pwd">
+    <input type="button" id="dl" value="登录">
+    <input type="button" id="zc" value="注册">
+</form>
+
+</body>
+<script type="text/javascript">
+  var sname=document.getElementById("name");
+  var spwd=document.getElementById("pwd");
+  var dl=document.getElementById("dl");
+  var zc=document.getElementById("zc");
+  zc.onclick=function (ev) {
+      window.location.href="/register";
+  }
+
+  dl.onclick=function (ev) {
+
+      $.ajax({
+          type:'post',
+          data:JSON.stringify({
+              "sname":sname.value,
+              "spwd":spwd.value
+          }),
+          url:'loginuser',
+          dataType: "json",
+          contentType: "application/json;charset=utf-8",
+          async : false,
+          cache : false,
+          success:function (data) {
+              console.log(data);
+              if(data!=null)
+              {
+                  console.log("成功");
+                  window.location.href="/index";
+              }
+              else {
+                  console.log("失败");
+              }
+          }
+      })
+
+  }
+
+</script>
+</html>

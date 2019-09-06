@@ -1,0 +1,26 @@
+/*!
+ * 解决layui和bootstrap兼容问题
+ * 
+ * 黄宗祥
+ */
+
+
+label {
+	-webkit-box-sizing: unset;
+	box-sizing: unset;
+	margin-bottom:0px;
+}
+
+label:before, label:after {
+	-webkit-box-sizing: unset;
+	box-sizing: unset;
+}
+
+.ellipsisText{
+	width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px;
+    
+}

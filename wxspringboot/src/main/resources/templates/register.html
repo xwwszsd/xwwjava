@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+</head>
+<body>
+<h1>注册</h1>
+<label>用户名：</label><input type="text" name="name" id="name"><br>
+<label>密码：</label><input type="text" name="pwd" id="pwd">
+<label>性别：</label><input type="text" name="sex" id="sex">
+<button id="btn">注册</button>
+</body>
+<script>
+    var uname=document.getElementById("name");
+    var upwd=document.getElementById("pwd");
+    var usex=document.getElementById("sex");
+    btn.onclick=function (data) {
+        console.log(uname.value);
+        $.ajax({
+            method:'post',
+            data:JSON.stringify({
+                'sname':uname.value,
+                'spwd':upwd.value,
+                'ssex':usex.value
+            }),
+            url:'registergo',
+            dataType: "json",
+            contentType: "application/json;charset=utf-8",
+            async : false,
+            cache : false,
+            success:function (data) {
+                console.log(data);
+                if(data!=0)
+                {
+                    console.log("注册成功");
+                    window.location.href="/login"
+                }
+                else {
+                    console.log("用户名已存在");
+                }
+            }
+
+        })
+    }
+</script>
+</html>

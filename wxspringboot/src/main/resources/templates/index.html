@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="js/layui/css/layui.css">
+
+
+
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+
+</head>
+<body>
+sss
+
+</body>
+<script>
+    $.ajax({
+        type:'post',
+
+        url:'list',
+        dataType: "json",
+        contentType: "application/json;charset=utf-8",
+        async : false,
+        cache : false,
+        success:function (data) {
+            console.log(data);
+
+
+        },
+        columns: [
+            {field: 'sname', title: '姓名', align: 'center', sort: true},
+            {field: 'spwd', title: '密码', align: 'center'},
+            {field: 'ssex', title: '性别', align: 'center'},
+
+
+        ]
+    })
+</script>
+
+</html>
